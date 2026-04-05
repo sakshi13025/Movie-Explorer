@@ -34,7 +34,7 @@ function MovieCard({ movie }) {
           <span className="bg-yellow-400 px-2 py-1 rounded text-sm font-bold">
             ⭐ {movie.vote_average}
           </span>
-          <Link className="text-blue-600 font-medium">View Details ➡️</Link>
+          <Link className="text-blue-600 font-medium" to={`/movie-details/${movie.id}`}>View Details ➡️</Link>
         </div>
       </div>
     </div>
